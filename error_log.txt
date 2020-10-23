@@ -1,0 +1,23 @@
+Author: Bindu <bindu.yenugu@gmail.com>
+Date:   Fri Oct 23 20:48:00 2020 +0530
+
+    Another conflict
+
+commit 45e940615f432100cf0d24568bcfffb74281865c
+Author: Bindu <bindu.yenugu@gmail.com>
+Date:   Fri Oct 23 20:44:58 2020 +0530
+
+    Error while commiting file with same name and branch
+
+commit 5c817ab05833a6c2ca26ef39f44b30e2939c205a
+Author: Bindu <bindu.yenugu@gmail.com>
+Date:   Fri Oct 23 20:24:34 2020 +0530
+
+    Testing on 10/23/2020
+
+commit 65e082efeb75daa66b91051ab9e64332114fa8ca (origin/devops_testing, master, devops_testing)
+Author: Bindu <bindu.yenugu@gmail.com>
+Date:   Thu Oct 22 18:46:06 2020 +0530
+
+    New commit for Test file
+
