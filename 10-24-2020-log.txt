@@ -1,0 +1,36 @@
+$ git push origin test_devops
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.16 KiB | 107.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'test_devops' on GitHub by visiting:
+remote:      https://github.com/shivaramya/ruchi-bindu-devops-practice/pull/new/test_devops
+remote:
+To https://github.com/shivaramya/ruchi-bindu-devops-practice.git
+ * [new branch]      test_devops -> test_devops
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (test_devops)
+$ git checkout test1
+Switched to branch 'test1'
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (test1)
+$ git merge test_devops
+Updating 26e7f1f..9dfde53
+Fast-forward
+ error.txt          | 11 +++++++++++
+ error_conflict.txt |  2 ++
+ error_log.txt      | 23 +++++++++++++++++++++++
+ 3 files changed, 36 insertions(+)
+ create mode 100644 error.txt
+ create mode 100644 error_conflict.txt
+ create mode 100644 error_log.txt
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (test1)
+$ git push origin test1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shivaramya/ruchi-bindu-devops-practice.git
+   26e7f1f..9dfde53  test1 -> test1
+
