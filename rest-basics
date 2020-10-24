@@ -3,3 +3,26 @@ Actions vs HTTP Methods
 2. Retrieve(Select) GET
 3. Update(Update)   UPDATE
 4. Delete(delete)   DELETE
+
+
+GET
+POST (Bindu GitHub & Ruchi)
+PUT  
+DELETE  
+
+
+GET all Students : localhost:8282/devops-learning/students
+GET all Students : localhost:8282/devops-learning/students/bindugit      (Path Parameter)
+                   localhost:8282/devops-learning/students?name=bindugit  (Query parameter)
+
+POST student : localhost:8282/devops-learning/students
+
+PUT student : localhost:8282/devops-learning/students
+
+DELETE student : localhost:8282/devops-learning/students
+
+Get all student who are taking devops course:
+
+
+localhost:8282/devops-learning/students/bindugit
+localhost:8282/devops-learning/students?course=devops 
