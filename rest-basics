@@ -88,5 +88,11 @@ server.port=8282
 server.servlet.context-path=/devops-learning
 
 
+Spring Boot Initializer : https://start.spring.io/
+
+
+Import project : Either as Maven Project
+
+
 
 
