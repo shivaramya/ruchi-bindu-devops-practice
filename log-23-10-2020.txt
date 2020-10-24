@@ -1,0 +1,53 @@
+package com.devopsdemo.restapi;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.devopsdemo.restapi.model.Employee;
+
+@RestController
+public class EmployeeController {
+	
+	@GetMapping("/employees")
+	public List<Employee> getEmployees() {
+		
+		List<Employee> employees = new ArrayList<>();
+		Employee ruchiEmp = new Employee();
+		ruchiEmp.firstName = "Ruchi";
+		ruchiEmp.lastName = "k";
+		ruchiEmp.empId = "1";
+		ruchiEmp.salary = 2354645.00;
+		
+		Employee binduEmp = new Employee();
+		binduEmp.firstName = "Bindu";
+		binduEmp.lastName = "y";
+		binduEmp.empId = "2";
+		binduEmp.salary = 4549212.00;
+		
+		employees.add(ruchiEmp);
+		employees.add(binduEmp);
+		
+		return employees;
+	}
+	
+}
+
+
+
+package com.devopsdemo.restapi.model;
+
+public class Employee {
+
+	public String firstName;
+	public String lastName;
+	public String empId;
+	public double salary;
+	
+}
+
+
+server.port = 8282
