@@ -1,0 +1,38 @@
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (test_devops)
+$ git push origin test_devops
+To https://github.com/shivaramya/ruchi-bindu-devops-practice.git
+ ! [rejected]        test_devops -> test_devops (fetch first)
+error: failed to push some refs to 'https://github.com/shivaramya/ruchi-bindu-devops-practice.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (test_devops)
+$ git branch test_ruchi_bindu
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (test_devops)
+$ git checkout test_ruchi_bindu
+Switched to branch 'test_ruchi_bindu'
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (test_ruchi_bindu)
+$ git pull origin tests_devops
+fatal: couldn't find remote ref tests_devops
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (test_ruchi_bindu)
+$ git pull origin
+warning: no common commits
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 15 (delta 2), reused 14 (delta 1), pack-reused 0
+Unpacking objects: 100% (15/15), 2.38 KiB | 3.00 KiB/s, done.
+From https://github.com/shivaramya/ruchi-bindu-devops-practice
+ * [new branch]      master      -> origin/master
+ * [new branch]      test1       -> origin/test1
+ * [new branch]      test_devops -> origin/test_devops
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
