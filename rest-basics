@@ -1,0 +1,5 @@
+Actions vs HTTP Methods
+1. Create(Insert)   POST
+2. Retrieve(Select) GET
+3. Update(Update)   UPDATE
+4. Delete(delete)   DELETE
