@@ -1,0 +1,58 @@
+1. What is difference between Git &  GitHub.
+Git is a version control system and a repository to store source code and keep track of it.
+Github is a cloud-based hosting service that allows you to manage git repositories. 
+
+
+2. What is difference between Git Clone & Checkout.
+Git clone is to fetch repositories from git server to local repository.
+Git checkout is to checkout to the specified branch.
+
+
+3. What is difference between Git pull & push.
+Git pull pulls the code from the remote repository to local repository and updates the local repository to the latest commit.
+Git push pushes the code from local repository to remote repository. It also checks the conflicts before pushing the code to remote repository.
+
+
+4. What is difference between Git fetch & pull.
+Git fetch downloads commits, files and refs from remote repository to local repository.
+Git pull pulls the code from remote repository to local repository with the latest commit.
+
+
+5. What is Git merge?
+Git merge is a unidirectional merge code from source directory to current checkout directory.
+
+
+6. What is process and port?
+Process is a copy of program. A PID is assigned by the operating system each time a new process is made.
+A port is a logical entity used as a part of communication. The port number identifies which port that process is using to communicate.
+
+
+7. What is Continuous Integration , Continuous Delivery and Continous Deployment?
+Continuous integration is the process to merge the changes back to the main branch as often as possible.
+Continuous delivery is an extension of continuous integration to make sure that you can release new changes to your customers quickly.
+Continuous deployment is a process of automatically deploying code to production after each codecommit and build.
+
+8. What are various HTTP methods?
+HTTP methods are used to communicate server for different activities like
+POST - Create / Insert 
+GET - Retrive / Select
+PUT - Update 
+DELETE - Delete
+
+
+9. What are Query parameters and Path parameters in HTTP GET method?
+Path parameters are variable parts of a URL path. They are typically used to point to a specific resource within a collection, such as a user identified by ID. A URL can have several path parameters, each denoted with curly braces { } .
+Query Parameter are set of perameters attached to the end of the URL. They help to retrieve data and performs actions based on inputs passed by user (after ?).
+
+10. What is Jenkins.
+Jenkins is an open source automation server which enables developers around the world to reliably build, test, and deploy their software.
+
+
+11. What are Jenkins plugins.
+Plugins are the primary means of enhancing the functionality of a Jenkins environment to suit organization- or user-specific needs. There are over a thousand different plugins which can be installed on a Jenkins controller and to integrate various build tools, cloud providers, analysis tools, and much more.
+
+
+12. What is maven and what is maven install?
+Apache Maven is a popular build tool, that takes your project's Java source code, compiles it, tests it and converts it into an executable Java program: either a . jar or a . war file. mvn clean install is the command to do just that.
+Maven install frames a dependency tree based on the project configuration pom. xml on all the sub projects under the super pom. xml (the root POM) and downloads/compiles all the needed components in a directory called . m2 under the user's folder.
+
