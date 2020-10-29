@@ -1,1 +1,1 @@
-2. What is difference between Git Clone & Checkout.> Git Clone to copy a remote repository to your local computer.>Checkout is for switching to different branches.
+0. What is difference between Git Clone & Checkout.> Git Clone to copy a remote repository to your local computer.>Checkout is for switching to different branches.
