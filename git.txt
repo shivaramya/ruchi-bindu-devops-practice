@@ -1,4 +1,9 @@
 Debugging Git Important commands:
 1. git branch
 2. git status
-3. git commit
+3. git log (:q to exit )
+
+1. Working directory - untracked files
+2. Staging Area - Files to be commited
+3. Commit Area/Local Repo - You have some commits 
+							to be pushed
