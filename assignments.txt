@@ -20,5 +20,6 @@
 20.diff between freestyle jobs and pipeline jobs?
 21. What is groovy?
 22. what is DSL in jenkins?
+23. What is difference between > and >> redirection operators?
 
 
