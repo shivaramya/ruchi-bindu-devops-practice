@@ -93,6 +93,7 @@ Jenkins executor will allow to a build to run in a build server.
 
 
 21. What is groovy?
+Apache Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform. It is both a static and dynamic language with features similar to those of Python, Ruby, and Smalltalk.
 
 
 22. what is DSL in jenkins?
