@@ -1,0 +1,4 @@
+Debugging Git Important commands:
+1. git branch
+2. git status
+3. git commit
