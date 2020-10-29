@@ -62,7 +62,8 @@ Maven install frames a dependency tree based on the project configuration pom. x
 
 
 14. what is the difference between unit testing and integration testing ?
-
+Unit testing is done by the developer himself on the code he developed.
+Integration testing is the process of testing the intergration of 2 or more units/modules.
 
 
 15 what is difference between .jar and .war files?
@@ -75,13 +76,18 @@ Maven install frames a dependency tree based on the project configuration pom. x
 
 
 17. what is difference between web server and app server?
+Webserver executes code from HTTP request.
+Application server generates dynamic content using business logic.
 
 
-18. What is executer ?
+18. What is executor in Jenkins?
+A Jenkins executor will allow to a build to run in a build server. It can have a PID (Process ID) for each build.
 
 
-19. What is the difference between the jenkins node and executer ?
-
+19. What is the difference between the jenkins node and executor ?
+Jenkins Node is a machine which is part of Jenkins environment which is capable of executing Projects.
+Controller and Agents are considered to be Nodes.
+Jenkins executor will allow to a build to run in a build server.
 
 20.diff between freestyle jobs and pipeline jobs?
 

@@ -11,5 +11,15 @@
 11. What is Jenkins.
 12. What are Jenkins plugins.
 13. What is maven and what is maven install?
+14. what is the difference between unit testing and integration testing ?
+15 what is difference between .jar and .war files?
+16. what is maven update ?
+17. what is difference between web server and app server?
+18. What is executor in Jenkins ?
+19. What is the difference between the jenkins node and executor ?
+20.diff between freestyle jobs and pipeline jobs?
+21. What is groovy?
+22. what is DSL in jenkins?
+23. What is difference between > and >> redirection operators?
 
 
