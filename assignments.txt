@@ -21,5 +21,10 @@
 21. What is groovy?
 22. what is DSL in jenkins?
 23. What is difference between > and >> redirection operators?
+24. What is Stage in Jenkins pipeline?
+25. What is difference between Controller, Agent and Executor in Jenkins?
+26. What is Master-Slave Architecture in Jenkins?
+27. What are pipeline Steps in Jenkins?
+28. What is bat and sh steps in Jenkins pipelines?
 
 
