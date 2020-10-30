@@ -98,3 +98,4 @@ Apache Groovy is a Java-syntax-compatible object-oriented programming language f
 
 22. what is DSL in jenkins?
  
+ 23. what is dependency management system in maven?
