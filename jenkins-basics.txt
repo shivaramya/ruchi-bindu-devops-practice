@@ -1,0 +1,20 @@
+1. Free Style Jobs
+2. Pipeline Jobs
+
+How to check Jenkins pipeline Jobs steps syntax?
+Go to pipeline Syntax under any Jenkins Job and select the step, which you want to see the syntax.
+
+
+Jenkins Scripted Pipeline Syntax:
+Jenkinsfile (Scripted Pipeline)
+node {  
+    stage('Build') { 
+        // 
+    }
+    stage('Test') { 
+        // 
+    }
+    stage('Deploy') { 
+        // 
+    }
+}
