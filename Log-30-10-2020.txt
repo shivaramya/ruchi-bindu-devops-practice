@@ -1,0 +1,83 @@
+$ git status
+On branch devops-learning
+Your branch and 'origin/devops-learning' have diverged,
+and have 1 and 4 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   assignments-bindu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.49 KiB | 5.00 KiB/s, done.
+From https://github.com/shivaramya/ruchi-bindu-devops-practice
+   8870aea..41a0c9a  devops-learning -> origin/devops-learning
+Auto-merging Assignment-ruchi.txt
+CONFLICT (content): Merge conflict in Assignment-ruchi.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning|MERGING)
+$ git add assignments-bindu.txt
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning|MERGING)
+$ git status
+On branch devops-learning
+Your branch and 'origin/devops-learning' have diverged,
+and have 1 and 6 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   assignments-bindu.txt
+        modified:   assignments.txt
+        new file:   git.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   Assignment-ruchi.txt
+
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning|MERGING)
+$ git add --all
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning|MERGING)
+$ git commit -m "Updating Answers "
+[devops-learning a932953] Updating Answers
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git status
+On branch devops-learning
+Your branch is ahead of 'origin/devops-learning' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git push
+Enumerating objects: 13, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.06 KiB | 136.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/shivaramya/ruchi-bindu-devops-practice.git
+   41a0c9a..a932953  devops-learning -> devops-learning
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git status
+On branch devops-learning
+Your branch is up to date with 'origin/devops-learning'.
+
+nothing to commit, working tree clean

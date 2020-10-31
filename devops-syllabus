@@ -1,0 +1,35 @@
+1.Git & GitHub
+	1)checkout
+	2)clone
+	3)add
+	4)commit
+	5)push
+	6)pull
+	7)merge
+<Completed>
+2. Spring Boot Rest App & REST Architecture Pattern basics
+	1)HTTP Verbs
+	2)Annotations used with Spring Rest APIs
+	3)Develop a simple Rest APIs including for verbs like GET,POST,PUT & DELETE etc
+<Completed>
+3. Jenkins
+	1)Free Style Jobs
+	2)Scripted Pipelines(Jobs)
+	3)Plugins
+	4)Configuration
+	5)Build Java applications using Maven in Jenkins 
+	5)Deploy Spring Boot App using Jenkins(Maven as Build tool) and access the Rest APIs after deployment
+4. DevOps & Definitions
+	1)Continous Integration
+	2)Continuous Delivery
+	3)Continuous Deployment
+	4)Agile
+	5)Pair Programming
+5. Deployment & Tools
+	1)Types of Servers
+	2)Types of Deployment 
+		i.Hot Deployment
+		ii.Cold Deployment
+	3)Deployment Tools like Ansible (Open Source)
+	  and Licensed Tools like XLDeploy/UrbanCodeDeploy
+	4)Deployment of Simple Java app using any of above deployment tools

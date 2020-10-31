@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+0. What is difference between Git Clone & Checkout.> Git Clone to copy a remote repository to your local computer.>Checkout is for switching to different branches.
+=======
+2. What is difference between Git Clone & Checkout.
+ Git Clone to copy a remote repository to your local computer. Checkout is for switching to different branches.
+
+
+3. What is difference between Git pull & push.
+    Git pull to download code from remote repository to your local machine and Git push is uploading to a remote repository.
+>>>>>>> 41a0c9ad96c3d7214c004ca36391cfeee717b878
+
+4. Difference betwee fetch and pull

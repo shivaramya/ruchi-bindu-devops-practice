@@ -1,0 +1,43 @@
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git status
+On branch devops-learning
+Your branch is up to date with 'origin/devops-learning'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   assignments-bindu.txt
+        modified:   assignments.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git add --all
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git commit -m "Updated"
+[devops-learning 66ef6e4] Updated
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git push
+To https://github.com/shivaramya/ruchi-bindu-devops-practice.git
+ ! [rejected]        devops-learning -> devops-learning (fetch first)
+error: failed to push some refs to 'https://github.com/shivaramya/ruchi-bindu-devops-practice.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$ git status
+On branch devops-learning
+Your branch is ahead of 'origin/devops-learning' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/ruchi-bindu-devops-practice (devops-learning)
+$
