@@ -105,7 +105,21 @@ DSL - Domain Specific Language is a plugin that allows us to define jobs in a pr
  
  
  
- 
+24. What is Stage in Jenkins pipeline?
+
+
+25. What is difference between Controller, Agent and Executor in Jenkins?
+
+
+26. What is Master-Slave Architecture in Jenkins?
+
+
+27. What are pipeline Steps in Jenkins?
+
+
+28. What is bat and sh steps in Jenkins pipelines?
+
+
  
  
  
