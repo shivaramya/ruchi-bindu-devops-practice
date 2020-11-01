@@ -56,13 +56,37 @@
     An application server exposes business logic to the clients, which generates dynamic content. 
     
 18. What is executor in Jenkins ?
-
+    A Jenkins executor is one of the basic building blocks which allow a build to run on a node/agent (e.g. build server)
+    
 19. What is the difference between the jenkins node and executor ?
+    A Node may have zero or more Executors configured. A node is a machine which is part of the Jenkins environment and capable of executing Pipelines or Projects. Both the         Controller and Agents are considered to be Nodes.
+
 20.diff between freestyle jobs and pipeline jobs?
+   Freestyle jobs provides Continous Integration. You can write several tasks and create a freestyle job while Pipeline provides Continous Delivery where you can define the        tasks in your own way. Pipeline has a flexible way of working.
+   
 21. What is groovy?
+    Apache Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform. It has some powerful DSL capabilities.
+    
 22. what is DSL in jenkins?
+    Job DSL was one of the first popular plugins for Jenkins which allows managing configuration as code and many other plugins.
+
 23. What is difference between > and >> redirection operators?
+    > is for overwriting files in git and >> is to concat files to the existing ones.
+    
 24. What is Stage in Jenkins pipeline?
+    A stage is a step that calls supported APIs. Pipeline syntax is comprised of stages. Each stage can have one or more build steps within it.
+    
 25. What is difference between Controller, Agent and Executor in Jenkins?
+
 26. What is Master-Slave Architecture in Jenkins?
+    In this architecture, Master distributes its workload to the Slaves. Our main Jenkins server is the Master. The Master’s job is to handle:
+       Scheduling build jobs.
+       Dispatching builds to the slaves for the actual execution.
+       Monitor the slaves (possibly taking them online and offline as required).
+       Recording and presenting the build results.
+    Slave's job is :
+       It hears requests from the Jenkins Master instance.
+       Slaves can run on a variety of operating systems. The job of a Slave is to do as they are told to, which involves executing build jobs dispatched by the Master.
+       You can configure a project to always run on a particular Slave machine or a particular type of Slave machine, or simply let Jenkins pick the next available Slave.
+
 27. What are pipeline Steps in Jenkins?
