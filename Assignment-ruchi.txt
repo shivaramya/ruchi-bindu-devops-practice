@@ -1,12 +1,68 @@
-<<<<<<< HEAD
-0. What is difference between Git Clone & Checkout.> Git Clone to copy a remote repository to your local computer.>Checkout is for switching to different branches.
-=======
+ 1. What is difference between Git &  GitHub.
+  Git is a distributed version control repository system where developers can keep the track of changes they commit. GitHub is a platform where developers can contribute to a     project by sharing their code using push and pull commands.
+  
 2. What is difference between Git Clone & Checkout.
- Git Clone to copy a remote repository to your local computer. Checkout is for switching to different branches.
-
+   Git Clone to copy a remote repository to your local computer. Checkout is for switching to different branches.
 
 3. What is difference between Git pull & push.
-    Git pull to download code from remote repository to your local machine and Git push is uploading to a remote repository.
->>>>>>> 41a0c9ad96c3d7214c004ca36391cfeee717b878
+   Git pull to download code from remote repository to your local machine and Git push is uploading to a remote repository.
+   
+4. What is difference between Git fetch & pull.
+  Fetch just downloads the file without changing anything into your local repo. Fetch contents are kept separetely into local machine while pull command merge the changes into     your working repo.
+  
+5. What is Git merge?
+   Git merge merges the contents from one branch to another branch.
+   
+6. What is process and port?
+   A process is a set of instructions given to a program to perform some task. Every port has a unique process running on it with unique process id's.
+   
+7. What is Continuous Integration , Continuous Delivery and Continous Deployment?
+   CI- CI is a set of practice where teams implements small changes and check in code to version control repos frequently. It creates an automated way to build, test and deploy    applications.
+   CD- CD automates the delivery of applications to the environments other than production like testing and development. 
+   Continous Deployment- where code is continously deployed autmaticatically for the customers to view it.
+   
+8. What are various HTTP methods?
+   Select- GET
+   Update- PUT
+   Insert- POST
+   Delete- DELETE
+   
+9. What are Query parameters and Path parameters in HTTP GET method?
+   Path parameter is used to identify a specific resource carrying some id like employee id while query parameter is used to sort/filter those resources like http://...?            designation=developer.
+   
+10. What are various HTTP methods.
 
-4. Difference betwee fetch and pull
+11. What is Jenkins.
+    Jenkins is an open source automation server to automate the process of buil, test and deploy. It facilitates CI/CD process.
+       
+12. What are Jenkins plugins.
+    Jenkins plugins like extensions where developers install some plugins and create their own set of commands to automate the process like sending email notifications. It also     has ways to integrate with your github account. There are several plugins like this.
+    
+13. What is maven and what is maven install?
+    Maven is a software project management tool where it has dependencies, packages our project on its own.
+    
+14. what is the difference between unit testing and integration testing ?
+    Unit testing is done at the company level without connecting to the outside api's. Developers do testing at their own level. 
+    Integration testing is the whole testing of software by connecting to some outside apis too. Several modules are comibned and tested as a whole. 
+
+15 what is difference between .jar and .war files?
+   .jar files are created from standalone applications like spider solitaire game etc whereas .war file is created from web applications. 
+   
+16. what is maven update ?
+    It's like updating the project. It makes sure that there are all the dependencies required for the project and clean the project.
+    
+17. what is difference between web server and app server?
+    A web server accepts and fulfills requests from clients for static content from a website. Web servers handle HTTP requests and responses only. 
+    An application server exposes business logic to the clients, which generates dynamic content. 
+    
+18. What is executor in Jenkins ?
+
+19. What is the difference between the jenkins node and executor ?
+20.diff between freestyle jobs and pipeline jobs?
+21. What is groovy?
+22. what is DSL in jenkins?
+23. What is difference between > and >> redirection operators?
+24. What is Stage in Jenkins pipeline?
+25. What is difference between Controller, Agent and Executor in Jenkins?
+26. What is Master-Slave Architecture in Jenkins?
+27. What are pipeline Steps in Jenkins?
