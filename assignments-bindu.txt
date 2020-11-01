@@ -72,7 +72,7 @@ Integration testing is the process of testing the intergration of 2 or more unit
 
 
 16. what is maven update ?
-
+Maven update will make sure that all referenced dependencies are there, as well as clean the project to make sure that they are included correctly.
 
 
 17. what is difference between web server and app server?
@@ -89,39 +89,57 @@ Jenkins Node is a machine which is part of Jenkins environment which is capable 
 Controller and Agents are considered to be Nodes.
 Jenkins executor will allow to a build to run in a build server.
 
-20.diff between freestyle jobs and pipeline jobs?
 
+
+20.diff between freestyle jobs and pipeline jobs?
+Pipeline jobs helps Jenkins to support continuous delivery. The Pipeline plugin was built with requirements for a flexible, extensible, and script-based Continous Delivery workflow capability.
+A freestyle job in Jenkins is a job that spans multiple operations. It can be a build, a script run, or even a pipeline.
+ 
+ 
 
 21. What is groovy?
-Apache Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform. It is both a static and dynamic language with features similar to those of Python, Ruby, and Smalltalk.
+Apache Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform. It is both static and dynamic language with features similar to those of Python, Ruby and Smalltalk.
 
 
 22. what is DSL in jenkins?
-DSL - Domain Specific Language is a plugin that allows us to define jobs in a programmatic form with minimal effort.
-
+Jenkins file can be written using Declarative and Scripted Pipelines. Declarative Pipeline is a more recent feature of Jenkins Pipeline which provides richer syntactical features over Scripted Pipeline syntax, and is designed to make writing and reading Pipeline code easier.
 
  
 23. what is dependency management system in maven?
- 
+Maven helps in managing dependencies for multiple projects and applications that consists of hundreds of modules by defining, creating and maintaining reproducable builds with well defined classpaths and library versions.
  
  
 24. What is Stage in Jenkins pipeline?
+Stage is a Jenkins pipeline process containing different series of steps in Jenkins like Build, Test and deploy.
+Executor is a slot for execution of work defined by a Pipeline or Project on a Node.
+A Node may have zero or more Executors configured which corresponds to how many concurrent Projects or Pipelines are able to execute on that Node.
+
 
 
 25. What is difference between Controller, Agent and Executor in Jenkins?
+Controller is the central coordinating process which stores configuration, loads plugins, and renders the various user interfaces for Jenkins.
+An agent is a machine, or container, which connects to a Jenkins controller and executes tasks when directed by the controller.
 
 
 26. What is Master-Slave Architecture in Jenkins?
+Jenkins use Master-Slave Architecture to manage distributed builds. In this architecture Master and Slave communicate through TCP/IP protocol.
+
+Jenkins server is the Master. It handles jobs like Scheduling builds, dispatching builds, monitoring slaves, recording and presenting build results and so on.
+A Master Instance of Jenkins can also execute build jobs directly.
+
+A slave is a Java executable that runs on remote machine. Jenkins Slaves hears requests from Jenkins Master instance. Slaves can run on vareity of OS.
+The job of a Slave is to do as they are told to, which involves executing build jobs dispatched by the Master. We can also configure a project to always run on a particular Slave machine or a particular type of Slave machine, or simply let Jenkins pick the next available Slave.
+
 
 
 27. What are pipeline Steps in Jenkins?
+A step in Jenkins is a single task that executes a specific process at a defined time. The pipeline steps are Build, Test, Deploy and Release.
+
 
 
 28. What is bat and sh steps in Jenkins pipelines?
 
 
- 
- 
  
  
  
