@@ -123,10 +123,8 @@ An agent is a machine, or container, which connects to a Jenkins controller and 
 
 26. What is Master-Slave Architecture in Jenkins?
 Jenkins use Master-Slave Architecture to manage distributed builds. In this architecture Master and Slave communicate through TCP/IP protocol.
-
 Jenkins server is the Master. It handles jobs like Scheduling builds, dispatching builds, monitoring slaves, recording and presenting build results and so on.
 A Master Instance of Jenkins can also execute build jobs directly.
-
 A slave is a Java executable that runs on remote machine. Jenkins Slaves hears requests from Jenkins Master instance. Slaves can run on vareity of OS.
 The job of a Slave is to do as they are told to, which involves executing build jobs dispatched by the Master. We can also configure a project to always run on a particular Slave machine or a particular type of Slave machine, or simply let Jenkins pick the next available Slave.
 
@@ -143,4 +141,10 @@ A step in Jenkins is a single task that executes a specific process at a defined
  
  
  
- 
+29. What is IAAS, PAAS, and SAAS?
+
+30. what is shared responsibility model?
+
+31. What is ssh and ssh port?
+
+32. What are reserved ports?
