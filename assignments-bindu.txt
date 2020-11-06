@@ -102,7 +102,7 @@ Apache Groovy is a Java-syntax-compatible object-oriented programming language f
 
 
 22. what is DSL in jenkins?
-Jenkins file can be written using Declarative and Scripted Pipelines. Declarative Pipeline is a more recent feature of Jenkins Pipeline which provides richer syntactical features over Scripted Pipeline syntax, and is designed to make writing and reading Pipeline code easier.
+DSL - Domain Specific Language. Pipelines are Jenkins jobs enabled by the pipeline plugin. They are built with simple text scripts that use Pipeline DSL based on groovy programming language.Jenkins file can be written using Declarative and Scripted Pipelines. Declarative Pipeline is a more recent feature of Jenkins Pipeline which provides richer syntactical features over Scripted Pipeline syntax, and is designed to make writing and reading Pipeline code easier.
 
  
 23. what is dependency management system in maven?
@@ -135,12 +135,74 @@ A step in Jenkins is a single task that executes a specific process at a defined
 
 
 
-28. What is bat and sh steps in Jenkins pipelines? 
+28. What is bat and sh steps in Jenkins pipelines?
+bat is windows batch script
+sh is shell script
+
+ 
 29. What is IAAS, PAAS, and SAAS?
+IAAS - Infrastructure as a service is a cloud based service such as storage, networking and virtualization.
+PAAS - Platform as a service is a cloud based service with hardware and software tools available over the internet.
+SAAS - Software as a service is a cloud application service that utilises the internet to deliver applications which are managed by third party vendors.
+SaaS applications run directly through your web browser, which means they do not require any downloads or installations on the client side.
+
+
 30. what is shared responsibility model?
+???????????????????????
+
+
 31. What is ssh and ssh port?
+The SSH command provides secure encrypted connection between 2 hosts over an insecure network. 
+Default SSH port is 22. To change the port number from default we can use port numbers from 1024 to 32767.
+
 32. What are reserved Ports 1024(0-1023) ?
-33. How many ports are there, 2^16 = 64,536(0-64535) ?
-34. What is IAAS and what is the most famous IAAS provider? AWS (EC2 container - Linux machines)?
+Ports 0-1023 are called system ports or well-known ports. These ports allows client applications to easily locate the corresponding server application processes on other hosts.
+
+
+33. How many ports are there? 
+2^16 = 65,536(0-65535) 
+
+
+
+34. What is IAAS and what is the most famous IAAS provider? AWS (EC2 container - Linux machines)
+IAAS - Infrastructure as a service is a cloud based service such as storage, networking and virtualization. It is a pay-as-you-go model.
+Top Ten IAAS providers
+
+Amazon EC2
+Google Compute Engine
+DigitalOcean
+Azure Virtual Machines
+Virtual Machine Manager
+Hostwinds
+Alibaba Elastic Compute Service
+OVHcloud
+Azure Linux Virtual Machines
+Netrepid
+
+
 35. What is PAAS and what is the most famous PAAS provider? PCF and Elastic Bean Stalk?
+PAAS - Platform as a service is a cloud based service with hardware and software tools available over the internet.
+Top PAAS providers
+
+Amazon Web Services (AWS) Elastic Beanstalk. 
+Oracle Cloud Platform (OCP) 
+Google App Engine. 
+Microsoft Azure. 
+Salesforce aPaaS. 
+Red Hat OpenShift PaaS.
+Mendix aPaaS. 
+IBM Cloud Platform.
+
 36. What is SAAS and what are examples?
+SAAS - Software as a service is a cloud application service that utilises the internet to deliver applications which are managed by third party vendors.
+SaaS applications run directly through your web browser, which means they do not require any downloads or installations on the client side.
+Popular SAAS examples
+
+Salesforce.com. 
+Microsoft Office 365. 
+Box. 
+Google Apps. 
+Amazon Web Services. 
+Concur. 
+Zendesk. 
+DocuSign.
