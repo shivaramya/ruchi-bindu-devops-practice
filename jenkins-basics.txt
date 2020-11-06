@@ -18,3 +18,24 @@ node {
         // 
     }
 }
+
+
+Jenkins pipeline with Skeleton:
+node{
+    println "Starting Java pipeline for CI-CD";
+    stage("check-out"){
+        println "check-out stage is yet to be implemented";
+    }
+    
+    
+    stage("maven-build"){
+        println "maven-build stage is yet to be implemented";
+    }
+    
+        stage("deployment"){
+        println "deployment stage is yet to be implemented";
+    }
+    
+    
+    
+}
