@@ -135,16 +135,12 @@ A step in Jenkins is a single task that executes a specific process at a defined
 
 
 
-28. What is bat and sh steps in Jenkins pipelines?
-
-
- 
- 
- 
+28. What is bat and sh steps in Jenkins pipelines? 
 29. What is IAAS, PAAS, and SAAS?
-
 30. what is shared responsibility model?
-
 31. What is ssh and ssh port?
-
-32. What are reserved ports?
+32. What are reserved Ports 1024(0-1023) ?
+33. How many ports are there, 2^16 = 64,536(0-64535) ?
+34. What is IAAS and what is the most famous IAAS provider? AWS (EC2 container - Linux machines)?
+35. What is PAAS and what is the most famous PAAS provider? PCF and Elastic Bean Stalk?
+36. What is SAAS and what are examples?
