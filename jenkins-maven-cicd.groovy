@@ -10,7 +10,7 @@ node{
     stage("maven-build"){
         dir("spring-boot-maven-example-helloworld"){
          println "PATH is ";
-         //bat "%PATH%";
+         bat "echo %PATH%";
          bat "mvn install";
         }
     }
