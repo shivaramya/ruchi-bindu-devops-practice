@@ -1,0 +1,100 @@
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git remote -v
+origin  https://github.com/binduygit/devops_bindu.git (fetch)
+origin  https://github.com/binduygit/devops_bindu.git (push)
+git sta
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git status
+On branch devops_testing
+nothing to commit, working tree clean
+git push
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git push
+fatal: The current branch devops_testing has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin devops_testing
+
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git push --set-upstream origin devops_testing
+To https://github.com/binduygit/devops_bindu.git
+ ! [rejected]        devops_testing -> devops_testing (fetch first)
+error: failed to push some refs to 'https://github.com/binduygit/devops_bindu.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.28 KiB | 5.00 KiB/s, done.
+From https://github.com/binduygit/devops_bindu
+ * [new branch]      devops_testing -> origin/devops_testing
+ * [new branch]      master         -> origin/master
+ * [new branch]      test1          -> origin/test1
+ * [new branch]      test_devops    -> origin/test_devops
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> devops_testing
+
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git branch --set-upstream-to=origin/<branch> devops_testing
+bash: branch: No such file or directory
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git branch --set-upstream-to=origin/devops_testing devops_testing
+Branch 'devops_testing' set up to track remote branch 'devops_testing' from 'origin'.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git push
+To https://github.com/binduygit/devops_bindu.git
+ ! [rejected]        devops_testing -> devops_testing (non-fast-forward)
+error: failed to push some refs to 'https://github.com/binduygit/devops_bindu.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git pull
+Merge made by the 'recursive' strategy.
+ test_rule.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test_rule.txt
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git pull
+Already up to date.
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git push
+Enumerating objects: 22, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 9.83 KiB | 279.00 KiB/s, done.
+Total 18 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/binduygit/devops_bindu.git
+   02005eb..4a724d1  devops_testing -> devops_testing
+
+Rajasekhar@Cherukuri MINGW64 ~/Documents/Devops/devops_bindu (devops_testing)
+$ git status
+On branch devops_testing
+Your branch is up to date with 'origin/devops_testing'.
+
+nothing to commit, working tree clean

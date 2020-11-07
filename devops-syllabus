@@ -19,13 +19,15 @@
 	4)Configuration
 	5)Build Java applications using Maven in Jenkins 
 	5)Deploy Spring Boot App using Jenkins(Maven as Build tool) and access the Rest APIs after deployment
+<Completed>
 4. DevOps & Definitions
 	1)Continous Integration
 	2)Continuous Delivery
 	3)Continuous Deployment
 	4)Agile
 	5)Pair Programming
-5. Deployment & Tools
+<Completed>	
+5. Deployment & Tools (In-Progress)
 	1)Types of Servers
 	2)Types of Deployment 
 		i.Hot Deployment
@@ -33,3 +35,4 @@
 	3)Deployment Tools like Ansible (Open Source)
 	  and Licensed Tools like XLDeploy/UrbanCodeDeploy
 	4)Deployment of Simple Java app using any of above deployment tools
+	5)Docker Containers

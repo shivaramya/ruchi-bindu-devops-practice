@@ -26,5 +26,15 @@
 26. What is Master-Slave Architecture in Jenkins?
 27. What are pipeline Steps in Jenkins?
 28. What is bat and sh steps in Jenkins pipelines?
+29. What is IAAS, PAAS and SAAS?
+30. What is Shared Responsibily Model?
+31. What is SSH and what is SSH port(22) ?
+32. What are reserved Ports 1024(0-1023)
+33. How many ports are there, 2^16 = 64,536(0-64535) ?
+34. What is IAAS and what is the most famous IAAS provider? AWS (EC2 container - Linux machines)
+35. What is PAAS and what is the most famous PAAS provider? PCF and Elastic Bean Stalk
+36. What is SAAS and what are examples?
+3
+
 
 
