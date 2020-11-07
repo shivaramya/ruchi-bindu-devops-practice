@@ -1,0 +1,27 @@
+C:\Users\Rajasekhar>cd C:\Temp\jenkins-ws@tmp
+
+C:\Temp\jenkins-ws@tmp>git clone https://github.com/javabycode/spring-boot-maven-example-helloworld.git
+Cloning into 'spring-boot-maven-example-helloworld'...
+remote: Enumerating objects: 19, done.
+remote: Total 19 (delta 0), reused 0 (delta 0), pack-reused 19
+Unpacking objects: 100% (19/19), 2.66 KiB | 2.00 KiB/s, done.
+
+C:\Temp\jenkins-ws@tmp>dir
+ Volume in drive C is OS
+ Volume Serial Number is 9C24-1732
+
+ Directory of C:\Temp\jenkins-ws@tmp
+
+11/07/2020  08:15 AM    <DIR>          .
+11/07/2020  08:15 AM    <DIR>          ..
+11/07/2020  08:15 AM    <DIR>          spring-boot-maven-example-helloworld
+               0 File(s)              0 bytes
+               3 Dir(s)  195,278,770,176 bytes free
+
+C:\Temp\jenkins-ws@tmp>cd spring-boot-maven-example-helloworld
+
+C:\Temp\jenkins-ws@tmp\spring-boot-maven-example-helloworld>mvn install
+Error: Could not find or load main class org.codehaus.plexus.classworlds.launcher.Launcher
+-------------------------------------------------------------------------------------------
+
+This was the error I got stuck up for mvn install
