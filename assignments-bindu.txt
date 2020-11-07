@@ -149,7 +149,7 @@ SaaS applications run directly through your web browser, which means they do not
 
 30. what is shared responsibility model?
 ???????????????????????
-
+<trainer-comments>https://aws.amazon.com/compliance/shared-responsibility-model/ </trainer-comments>
 
 31. What is ssh and ssh port?
 The SSH command provides secure encrypted connection between 2 hosts over an insecure network. 
