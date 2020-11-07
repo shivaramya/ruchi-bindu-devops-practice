@@ -1,3 +1,6 @@
+<trainer-comments> You can't run shell script in Windows machine right Bindu? </trainer-comments>
+
+
 Just added execute shell in build
 
 
