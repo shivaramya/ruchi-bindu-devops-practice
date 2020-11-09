@@ -26,7 +26,8 @@ node{
     }
     
         stage("deployment"){
-        println "deployment stage is yet to be implemented";
+        dir("sample-rest-app\\target"){
+        bat "java -jar sample-rest-app-0.0.1.jar";
     }
     
     }
