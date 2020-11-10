@@ -27,8 +27,7 @@ node{
     
         stage("deployment"){
         dir("sample-rest-app\\target"){
-        bat "java -jar sample-rest-app-0.0.1.jar";
-            
+        bat " \"C:\\Program Files\\Java\\jdk-13.0.2\\bin\\javaw.exe\" -jar sample-rest-app-0.0.1.jar";            
         }
     }
     
