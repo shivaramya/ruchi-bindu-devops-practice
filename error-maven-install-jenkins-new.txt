@@ -1,0 +1,88 @@
+Started by user Bindu Yenugu
+Obtained Jenkins_Pipeline_Demo-master/Jenkinsfile from git https://github.com/binduygit/devops_bindu.git
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 0a059e9a446891bc680aed2e1f758dd4142ec58f
+ > C:\Program Files\Git\mingw64\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\mingw64\bin\git.exe config remote.origin.url https://github.com/binduygit/devops_bindu.git # timeout=10
+Fetching upstream changes from https://github.com/binduygit/devops_bindu.git
+ > C:\Program Files\Git\mingw64\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.28.0.windows.1'
+using GIT_ASKPASS to set credentials Connecting Jenkins and Github
+ > C:\Program Files\Git\mingw64\bin\git.exe fetch --tags --force --progress -- https://github.com/binduygit/devops_bindu.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\mingw64\bin\git.exe rev-parse "refs/remotes/origin/devops_testing^{commit}" # timeout=10
+Checking out Revision f6f796053abd06533169ac19f7e919e05363bc52 (refs/remotes/origin/devops_testing)
+ > C:\Program Files\Git\mingw64\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\mingw64\bin\git.exe checkout -f f6f796053abd06533169ac19f7e919e05363bc52 # timeout=10
+Commit message: "Sample testing"
+ > C:\Program Files\Git\mingw64\bin\git.exe rev-list --no-walk f6f796053abd06533169ac19f7e919e05363bc52 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Compile Stage)
+[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation provided by the build agent
+[withMaven] using Maven installation 'apache-maven-3.6.3'
+[Pipeline] {
+[Pipeline] bat
+
+C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing>mvn clean compile 
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing@tmp\withMavencb3bfe04\pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing@tmp\withMavencb3bfe04" 
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.6.3\bin\..
+Java version: 1.8.0_271, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jre1.8.0_271
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[INFO] [jenkins-event-spy] Generate C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing@tmp\withMavencb3bfe04\maven-spy-20201110-003716-6885486761871368077192.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.360 s
+[INFO] Finished at: 2020-11-10T00:37:23+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing@tmp\withMavencb3bfe04\maven-spy-20201110-003716-6885486761871368077192.log
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\jenkins-maven-testing-devops-testing). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+[Pipeline] }
+[withMaven] Jenkins Task Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Generated Artifacts Publisher: 109 ms, Findbugs Publisher: 20 ms, SpotBugs Publisher: 14 ms, Open Task Scanner Publisher: 4 ms
+[Pipeline] // withMaven
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Testing Stage)
+Stage "Testing Stage" skipped due to earlier failure(s)
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Install Stage)
+Stage "Install Stage" skipped due to earlier failure(s)
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
