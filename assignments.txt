@@ -34,7 +34,14 @@
 34. What is IAAS and what is the most famous IAAS provider? AWS (EC2 container - Linux machines)
 35. What is PAAS and what is the most famous PAAS provider? PCF and Elastic Bean Stalk
 36. What is SAAS and what are examples?
-3
+37. What is Containers?
+38. Know about Pets and Cattle Analogy?
+39. What is docker file, docker image and container?
+40. What is the difference between Docker Repostitory  and Image?
+41. What is Docker Registry. Name few of them?
+42. What is private and public keys in SSH. How we can connect to a remote linux machine using SSH?
+
+
 
 
 
